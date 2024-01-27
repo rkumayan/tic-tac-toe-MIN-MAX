@@ -1,10 +1,14 @@
 
 import './App.css';
 
+// import components
+import ShowGrid from './components/ShowGrid'
+
 function App() {
+  const gameData = [0,0,0,0,0,0,0,0,0];
   return (
     <div className="App">
-      Hello World
+      <ShowGrid gameData = {gameData} />
     </div>
   );
 }

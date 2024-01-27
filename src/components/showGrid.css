@@ -1,0 +1,24 @@
+.game-grid{
+    
+    max-width:400px;
+    margin : 100px auto;
+}
+.game-grid .row{
+    display: flex;
+    
+}
+.game-grid .row .cell{
+    border:2px solid green;
+    height: 120px;    
+    width:100px;        
+    text-align : center;
+}
+.game-grid .row .cell .player{
+    font-size:40px;
+    color:skyblue;
+}
+.game-grid .row .cell .zero{
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+}
